@@ -1,0 +1,8 @@
+DPLYR ---
+Select()
+Filter()
+Mutate()
+Arrange()
+Summarise()
+Count()
+Group by()

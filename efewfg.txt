@@ -1,0 +1,6 @@
+file used--salesdata
+heat Map-- can be represent in  color,size it use in flood  and earthq.
+size--frequency.
+color-effected area.
+
+world cloud use for text visualisation.

@@ -1,0 +1,22 @@
+consider a scenario data having some missing values we want to first check 
+the missing values then wants to remove and exclude missing values
+further want to check the output whether it have missing values or not?
+for this task using a general way we need to create a function that would be working 
+on all data sets.
+solution--
+a1=function(x){
+  if(nrow(x[!complete.cases(x),])==0)
+  {
+    print("No missing value")
+  }
+  else
+  {
+  print("old data with NA value")
+  print(is.na(x))
+  print("Only missing data")
+  print(x[!complete.cases(x),])
+  print("New Data")
+  y=na.omit(x)
+  is.na(y)
+  }
+}

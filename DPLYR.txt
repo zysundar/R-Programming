@@ -1,0 +1,10 @@
+DPLYR ---
+Select(dataframename,colume_name,......,....)
+filter(dataframe_name,condition)
+//select(filter(airquality,Month==5),Temp)
+//filter(airquality,Month>5 & Temp==80)
+Mutate()
+Arrange()
+Summarise()
+Count()
+Group by()
